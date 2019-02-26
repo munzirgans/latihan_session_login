@@ -1,0 +1,112 @@
+@import "Munzir.css";
+*{
+	font-family: Munzir;
+}
+.alert_success{
+	border-radius:5px;
+	border: 2px solid #d6e9c6;
+	background-color:#dff0d8;
+	color:#3c763d;
+	padding:10px 1px 10px 10px;
+	font-weight:bold;
+	font-size:14px;
+}
+.alert_warning{
+	border-radius:5px;
+	border:2px solid #faebcc;
+	background-color:#fcf8e3;
+	color:#8a6d3b;
+	padding:10px 1px 10px 10px;
+	font-weight:bold;
+	font-size:14px;
+}
+.alert_failed{
+	border-radius:5px;
+	border: 2px solid #ebccd1;
+	background-color:#f2dede;
+	color:#a94442;
+	padding:10px 1px 10px 10px;
+	font-weight:bold;
+	font-size:14px;
+}
+.kotak{
+	border-radius: 18px 18px 3px 3px;
+	margin:80px 480px 5px 480px;
+	box-shadow: 1px 5px 25px 0px #d8d8d8;
+}
+.login{
+	font-size:18px;
+	border-radius:18px 18px 3px 3px;
+	color:white;
+	text-align: center;
+	background-color:#57B847;
+	margin-top:0px;
+	padding:20px 5px 20px 5px;
+}
+input{
+	display:block;
+}
+::placeholder{
+	font-size:12px;
+	color:black;
+	font-weight: bold;
+}
+.pengguna:focus,.sandi:focus{
+	box-shadow: 0 0 5pt 1pt #57B847;
+}
+.pengguna{
+	margin:60px 5px 1px 50px;
+	border:none;
+	background-color: #EBEBEB;
+	color:black;
+	outline:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:20px;
+	padding-right: 80px;
+	border-radius:31px;
+}
+.sandi{
+	margin:20px 5px 1px 50px;
+	border:none;
+	outline-color:red;
+	background-color: #EBEBEB;
+	color:black;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:20px;
+	padding-right: 80px;
+	border-radius:31px;
+	outline:none;
+}
+.signin{
+	font-size:13px;
+	margin:40px 5px 10px 55px;
+	display:block;
+	border:none;
+	background-color:#57B847;
+	color:white;
+	font-weight:bold;
+	text-align: center;
+	padding:10px 117px 10px 117px;
+	border-radius: 31px;
+}
+.pertanyaan{
+	color:grey;
+	font-size:13px;
+	display:block;
+	text-align:center;
+	text-decoration: none;
+	
+	margin-top:120px;
+	margin-bottom:15px;
+}
+.daftar{
+	font-size:14px;
+	font-weight:bold;
+	color:#57b847;
+	display:block;
+	text-decoration: none;
+	text-align:center;
+	padding-bottom:30px;
+}
